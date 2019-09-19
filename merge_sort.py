@@ -36,3 +36,6 @@ def merge_sort(list_to_sort):
             current_index_right += 1
     
     return sorted_list
+
+result = merge_sort(unsortedList)
+print(result)
