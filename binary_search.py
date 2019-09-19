@@ -28,3 +28,6 @@ def binary_search(target, nums):
             floor_index = guess_index
 
     return False
+
+result = binary_search(searchNum, numList)
+print(result)
